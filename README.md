@@ -1,7 +1,7 @@
-# CFAF480128A0-039Tx-A1
+# CFAF240320A0-024Sx-A1
 
 Code for the Crystalfontz [CFAF240320A0-024SC-A1-1](https://www.crystalfontz.com/product/cfaf240320a0024sca11) and [CFAF240320A0-024SN-A1-1](https://www.crystalfontz.com/product/cfaf240320a0024sna11).  
-These displays are 3.9in 480x128 TFTs.  
+These displays are 2.4in 240x320 TFTs.  
 
 Example Seeeduino (Arduino clone) software.   
   

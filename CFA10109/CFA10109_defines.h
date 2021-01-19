@@ -2,7 +2,7 @@
 #define __CFA10109_DEFINES_H__
 //============================================================================
 //
-// Definitions specific to the EVE accelerated CFA10099 board.
+// Definitions specific to the EVE accelerated CFA10109 board.
 // (cap-touch) https://www.crystalfontz.com/product/cfaf240320a0024sca11
 // (non-touch) https://www.crystalfontz.com/product/cfaf240320a0024sna11
 //
@@ -66,7 +66,7 @@
 #define BT817 (0x17)
 #define BT818 (0x18)
 //============================================================================
-// These defines describe the board and EVE accelerator.
+//These defines describe the board and EVE accelerator.
 #define EVE_DEVICE           (FT811)
 #define EVE_CLOCK_SOURCE     (EVE_CLOCK_SOURCE_INTERNAL)
 #define EVE_CLOCK_MUL        (EVE_EXTERNAL_CLOCK_MUL_UNUSED)
@@ -74,12 +74,12 @@
 #define EVE_TOUCH_TYPE       (EVE_TOUCH_CAPACITIVE)
 #define EVE_TOUCH_CAP_DEVICE (EVE_CAP_DEV_DEFAULT)
 #define EVE_PEN_UP_BUG_FIX   (0)
-//Touch panel defaults to 480x128 -- no calibration needed.
+//Touch panel defaults to 240x320 -- no calibration needed.
 #define EVE_TOUCH_CAL_NEEDED (0)
 // DEBUG_NONE (0K flash), DEBUG_STATUS (~1.4K flash) or DEBUG_GEEK (~5.9K flash)
 #define DEBUG_LEVEL (DEBUG_NONE)
 
-// You can enable/disable the different demos here.
+// Enable/disable the different demos here.
 // There is not enough RAM_G space to hold all of the scrolling background,
 // logo, audio, and blue marble at the same time.
 // Also, some combinations of demos and debug messages may overflow the

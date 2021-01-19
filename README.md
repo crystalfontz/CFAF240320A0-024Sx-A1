@@ -11,7 +11,7 @@ Kits for these products can be found here:
 
 ## Navigating the Code
 
-To toggle on or off different demonstrations, some defines in "CFA10099_defines.h" can be changed.
+To toggle on or off different demonstrations, some defines in "CFA10109_defines.h" can be changed.
 
 ```c++
 #define BMP_DEMO             (0)  

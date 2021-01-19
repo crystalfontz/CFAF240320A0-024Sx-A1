@@ -71,7 +71,7 @@
 //----------------------------------------------------------------------------
 // Frame_Rate = 60Hz / 16.7mS
 //----------------------------------------------------------------------------
-// Horizontal timing (minimum values from CFAF480128A0-039TC page 9)
+// Horizontal timing (minimum values from display datasheet)
 // Target 60Hz frame rate, using the largest possible line time in order to
 // maximize the time that the EVE has to process each line.
 #define HPX   (240)    // Horizontal Pixel Width
@@ -92,7 +92,7 @@
 // Total number of clocks per line
 #define LCD_HCYCLE  (HPX+HFP+HSW+HBP+HPP)
 //----------------------------------------------------------------------------
-// Vertical timing (minimum values from CFAF480128A0-039TC page 9, with
+// Vertical timing (minimum values from display datasheet, with
 // empirical tweaks)
 #define VLH   (320)    // Vertical Line Height
 #define VS    (4)      // Vertical Sync (in lines)  (1~20)

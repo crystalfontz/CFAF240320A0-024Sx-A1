@@ -3,7 +3,7 @@
 //============================================================================
 //
 // Display definitions for:
-//   CFA10099 with FT811 EVE accelerator board
+//   CFA10109 with FT811 EVE accelerator board
 //
 // Displays:
 //   CFAF240320A0-024SC (Cap Touch)

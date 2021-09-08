@@ -35,7 +35,7 @@ To toggle on or off different demonstrations, some defines in "CFA10109_defines.
 
 
 ## Connection Details
-#### To CFA10098 Adapter Board (See kits above)
+#### To [CFA10098 Adapter Board](https://www.crystalfontz.com/product/cfa10098) (See kits above)
 | 10098 Pin         | Seeeduino Pin| Connection Description |
 |-------------------|--------------|------------------------|
 | 1  (3v3)          | 3v3          | +3.3V Power            |
@@ -54,7 +54,7 @@ To toggle on or off different demonstrations, some defines in "CFA10109_defines.
 | 14 (GND)          | GND or DNC   | Ground                 |
 
 
-#### To Optional uSD Adapter Board
+#### To Optional [uSD Adapter Board](https://www.crystalfontz.com/product/cfa10112) 
 | microSD Pin | Seeeduino Pin| Connection Description |
 |-------------|--------------|------------------------|
 | 1 (CS)      | D10          | SD CS                  |
